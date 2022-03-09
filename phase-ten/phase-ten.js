@@ -1,4 +1,6 @@
-export const checkPhase = (cards) => {};
+export const checkPhase = (cards = [], phase = 1) => {};
+
+// [1, 4, 6, 2, 1]
 
 // Phase 1 – 2 sets of 3
 // Phase 2 – 1 set of 3 and 1 run of 4
